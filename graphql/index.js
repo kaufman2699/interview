@@ -1,6 +1,5 @@
 const { ApolloServer } = require("apollo-server");
 const { RESTDataSource } = require('apollo-datasource-rest');
-const { EntitiesAPI } = require('./datasources/entities');
 const { typeDefs } = require("./types/query");
 const { resolvers } = require("./resolvers/query");
 
